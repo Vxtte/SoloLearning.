@@ -1,0 +1,17 @@
+@font-face {
+    font-family: BlakestoneDemoRegular ;
+    src: url(./BlakestoneDemoRegular.otf);}
+body {
+    margin: 0
+;text-decoration: none;}
+.video { position: relative;padding-bottom: 56.25%;}
+.video_media {position: absolute;top:0;left: 0;width: 100%;}
+
+
+.intro_content {width: 100%;height: 100%;position: absolute;top:0;left: 0;z-index:3 }
+    .title {margin: 0; font-size: 100px; color: white;text-align: center;margin-top: 300px;}
+    a {text-decoration: none;color: white;}
+    a:active {text-decoration: none;}
+    a:hover {text-decoration:none;}
+    a span{text-decoration: none;color: rgb(255, 95, 220);font-family: BlakestoneDemoRegular;font-size: 80px;}
+span:hover  {color: yellow;}

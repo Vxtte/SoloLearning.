@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: BlakestoneDemoRegular ;
+    src: url(./BlakestoneDemoRegular.otf);}
+    p,
+    ul,
+    li,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      padding: 1;
+   list-style-type: none;
+    }
+    .Logo {margin-left: 20px;margin-top:70px;}
+    a span{text-decoration: none;color: rgb(255, 95, 220);font-family: BlakestoneDemoRegular;font-size: 20px;}
+    a {text-decoration: none;color: aliceblue;font-family: cursive;font-size: 30px;}
+a:hover {text-decoration: none;color: rgb(0, 140, 255);}
+a:visited {text-decoration: none;}
+.header {background-color: rgb(0, 0, 0, 0.7); display: flex;
+    justify-content: safe;
+    height: 190px;
+    left: 0;
+   ;
+   
+    ;  box-sizing: border-box;}
+
+.navigation {color: rgb(0, 0, 0); font-size: 20px;margin-left: 1500px;margin-top: 25px;
+}
+.navigation li {display: flex;background-color: rgb(255, 255, 255, 0.7); font-family: Tahoma;
+justify-content: center;}
+.login a {color: black; font-size: 20px;font-family: tahoma;}
+.reg a {color: black; font-size: 20px;font-family: tahoma;}
+.login:hover {background-color: rgb(0, 140, 255);}
+.reg:hover {background-color: rgb(0, 140, 255);}
+
+.Hero h1,.sm {display:flex;justify-content: center;font-family: tahoma;margin-top: 25px;}
+.sm {border: 3px solid black;width: 200px;margin-left: 140px;}
+.HeroParent {width: 500px;	height: 150px; /* Размеры */
+    background: rgb(255, 255, 255); /* Цвет фона */
+    border: 3px solid rgb(255, 255, 255); /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    justify-content: baseline;
+    margin-bottom: 60PX;
+    position: relative;
+    right: -700px;
+    bottom: -70px
+;color:black ;}
+.sm a {justify-content: center;display: flex;color: black;font-family: tahoma ;}
+
+.sm:hover {background-color: rgb(0, 119, 255);}
+
+
+.enjoyer  {  width: 500px;	height: 350px; /* Размеры */
+    background: rgb(255, 255, 255); /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    justify-content: baseline;
+    margin-bottom: 60PX;
+    position: relative;
+    right: -40px;
+    bottom: -70px
+}
+.enjoyer h2,h3,p {margin-right: 50px;color: black;justify-content: center;display: flex;}
+.enjoyer h2 {margin-left: 50px;}
+.history  {  width: 600px;	height: 750px; /* Размеры */
+    background: rgb(255, 255, 255); /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    justify-content: baseline;
+    margin-bottom: 60PX;
+   position: relative;
+    right: -655px;
+    bottom: 350px;
+    justify-content: center;
+}
+.history h2,h3,p {margin-right: 50px;color: black;justify-content: center;display: flex;}
+.history h2 {margin-left: 50px;margin-bottom: 10px;}
+.history .e30img {display:flex;justify-content: center; margin-left:50px;margin-bottom: 12px;}
+
+footer { display: flex;position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100px;
+    padding-inline: 215px;
+    background-color: rgb(0, 0, 0);
+position: static;
+margin-top: 50px;}
+
+
+.footerlog {margin-left: -190px}
+.bmwfooter {margin-bottom: -8px;}
+
+
+body { position: relative;
+    background-image: url("../images/1436126071_bmw_e30_m3_black_and_white_1920x1080_72478.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+color: aliceblue;
+display: flex; flex-direction:column;
+
+
+
+}
