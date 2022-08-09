@@ -29,8 +29,9 @@ a:visited {text-decoration: none;}
    
     ;  box-sizing: border-box;}
 
-.navigation {color: rgb(0, 0, 0); font-size: 20px;margin-left: 1500px;margin-top: 25px;
+.navigation   {color: rgb(0, 0, 0); font-size: 20px;margin-left: 1500px;margin-top: 25px;
 }
+.SCS a {color: black;font-size: 20px;}
 .navigation li {display: flex;background-color: rgb(255, 255, 255, 0.7); font-family: Tahoma;
 justify-content: center;}
 .login a {color: black; font-size: 20px;font-family: tahoma;}
